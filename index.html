@@ -17,37 +17,40 @@
 
     /* FILES (cambiá estos 4 nombres por los tuyos reales) */
     :root{
-      --f1-file: "CreamCakeBold";
-      --f2-file: "Muthiara";
-      --f3-file: "Fuente3.otf";
-      --f4-file: "Fuente4.otf";
+      --f1-file: "fonts/creamcakebold.otf";
+      --f2-file: "fonts/muthiara.otf";
+      --f3-file: "fonts/Fuente3.otf";
+      --f4-file: "fonts/Fuente4.otf";
     }
 
-    /* NOTA: No uses comillas “ ”. Solo " */
-    @font-face{
+    /* 2. Corregimos los @font-face */
+    @font-face {
       font-family: "F1";
-      src: url("CreamCakeBold" var(--f1-file)) format("opentype");
+      src: url("fonts/creamcakebold.otf") format("opentype");
       font-weight: 400;
       font-style: normal;
       font-display: swap;
     }
-    @font-face{
+
+    @font-face {
       font-family: "F2";
-      src: url("Muthiara" var(--f2-file)) format("opentype");
+      src: url("fonts/muthiara.otf") format("opentype");
       font-weight: 400;
       font-style: normal;
       font-display: swap;
     }
-   @font-face{
+
+    @font-face {
       font-family: "F3";
-      src: url("CreamCakeBold" var(--f1-file)) format("opentype");
+      src: url("fonts/Fuente3.otf") format("opentype");
       font-weight: 400;
       font-style: normal;
       font-display: swap;
     }
-    @font-face{
+
+    @font-face {
       font-family: "F4";
-      src: url("Muthiara" var(--f2-file)) format("opentype");
+      src: url("fonts/Fuente4.otf") format("opentype");
       font-weight: 400;
       font-style: normal;
       font-display: swap;
