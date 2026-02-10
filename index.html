@@ -32,62 +32,160 @@
 <p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>font-display: swap;</span></p>
 <p class="p2"><span class="s1">}</span></p>
 <p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1">&lt;!doctype html&gt;</span></p>
+<p class="p2"><span class="s1">&lt;html lang="es"&gt;</span></p>
+<p class="p2"><span class="s1">&lt;head&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta charset="utf-8" /&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1" /&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;title&gt;Vista previa de tipografías&lt;/title&gt;</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;style&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>/* =========================</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">       </span>1) REGISTRO DE FUENTES OTF</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">       </span>=========================</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">       </span>IMPORTANTE:</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">       </span>- Los nombres de archivo deben coincidir EXACTO con lo que tengas en /fonts</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">       </span>- Usar comillas rectas " (no “ ”)</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>*/</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>@font-face {</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>font-family: "Muthiara Regular";</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>src: url("fonts/Muthiara.otf") format("opentype");</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>font-weight: 400;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>font-style: normal;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>font-display: swap;</span></p>
-<p class="p2"><span class="s1">}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-family: "Cream Cake Bold";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>src: url("./fonts/CreamCakeBold.otf") format("opentype");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 700;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-style: normal;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-display: swap;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
 <p class="p1"><span class="s1"></span><br></p>
-<p class="p1"><span class="s1"><span class="Apple-converted-space">    </span></span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>@font-face {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-family: "Muthiara Regular";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>src: url("./fonts/Muthiara.otf") format("opentype");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 400;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-style: normal;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-display: swap;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
 <p class="p1"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>/* 2) ESTILO VISUAL */</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>:root { --border: #e5e7eb; --text: #111827; --muted:#6b7280; --bg:#f9fafb; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>body { margin:0; font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; color:var(--text); background:var(--bg); }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.wrap { max-width: 980px; margin: 0 auto; padding: 24px; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.card { background:#fff; border:1px solid var(--border); border-radius:16px; padding:16px; box-shadow: 0 6px 18px rgba(0,0,0,.05); }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>h1 { font-size: 18px; margin: 0 0 12px; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.row { display:flex; gap:12px; flex-wrap: wrap; align-items: center; }</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>@font-face {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-family: "Fuente 3";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>src: url("./fonts/Fuente3.otf") format("opentype");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 400;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-style: normal;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-display: swap;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>@font-face {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-family: "Fuente 4";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>src: url("./fonts/Fuente4.otf") format("opentype");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 400;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-style: normal;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-display: swap;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>/* =========================</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">       </span>2) UI</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">       </span>========================= */</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>:root{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>--border:#e5e7eb;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>--text:#111827;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>--muted:#6b7280;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>--bg:#f8fafc;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>--card:#ffffff;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>body{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>margin:0;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>color:var(--text);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>background:var(--bg);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.wrap{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>max-width: 980px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>margin: 0 auto;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>padding: 22px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.card{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>background:var(--card);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border:1px solid var(--border);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border-radius:16px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>padding:16px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>box-shadow: 0 10px 30px rgba(0,0,0,.06);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>h1{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 18px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>margin: 0 0 12px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 800;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.row{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>display:flex;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>gap:10px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>flex-wrap: wrap;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>align-items:center;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>input[type="text"]{</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>flex: 1 1 280px; padding:12px 14px; border:1px solid var(--border);</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border-radius:12px; font-size:16px; outline:none;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>flex: 1 1 280px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>padding: 12px 14px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border:1px solid var(--border);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border-radius:12px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 16px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>outline:none;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>button{</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>padding:12px 14px; border:1px solid var(--border); border-radius:12px;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>background:#111827; color:#fff; font-weight:600; cursor:pointer;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>padding: 12px 14px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border:1px solid var(--border);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border-radius:12px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>cursor:pointer;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-weight: 700;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>background:#111827;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>color:#fff;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>button.secondary{ background:#fff; color:#111827; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.hint { color:var(--muted); font-size: 13px; margin-top: 8px; }</span></p>
-<p class="p1"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.grid { display:grid; grid-template-columns: 1fr; gap: 12px; margin-top: 16px; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>@media (min-width: 820px){ .grid{ grid-template-columns: 1fr 1fr; } }</span></p>
-<p class="p1"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.preview {</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border:1px solid var(--border); border-radius:16px; padding:14px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>button.secondary{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>background:#fff;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>color:#111827;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.hint{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>color:var(--muted);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 13px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 8px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.grid{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>display:grid;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>grid-template-columns: 1fr;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>gap: 12px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 16px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>@media (min-width: 820px){</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>.grid{ grid-template-columns: 1fr 1fr; }</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.preview{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border:1px solid var(--border);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>border-radius:16px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>padding:14px;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>background:#fff;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.meta { display:flex; justify-content: space-between; gap:10px; align-items: baseline; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.fontname { font-weight:700; font-size: 13px; color:#111827; }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.size { font-size: 12px; color: var(--muted); }</span></p>
-<p class="p1"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.sample {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.meta{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>display:flex;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>justify-content: space-between;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>gap:10px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>align-items: baseline;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.fontname{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-weight:800;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 13px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.size{</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 12px;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>color:var(--muted);</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.sample{</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>margin-top: 10px;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>font-size: 48px;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>line-height: 1.05;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>word-break: break-word;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
-<p class="p1"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>.small { font-size: 28px; }</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/style&gt;</span></p>
 <p class="p2"><span class="s1">&lt;/head&gt;</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1">&lt;body&gt;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;div class="wrap"&gt;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>&lt;div class="card"&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Buscador de nombre (vista previa en tus tipografías)&lt;/h1&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>&lt;h1&gt;Buscador de nombre — Vista previa en tus tipografías&lt;/h1&gt;</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="row"&gt;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>&lt;input id="nameInput" type="text" placeholder="Escribí el nombre… (ej: Sofía)" autocomplete="off" /&gt;</span></p>
@@ -96,7 +194,7 @@
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="hint"&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>Tip: podés mandar este link al cliente. Escribe el nombre y ve 4 opciones al instante.</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>Escribí el nombre una vez y se muestra automáticamente en 4 tipografías (OTF).</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>&lt;/div&gt;</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>&lt;div class="grid" id="previews"&gt;&lt;/div&gt;</span></p>
@@ -104,10 +202,13 @@
 <p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;/div&gt;</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">  </span>&lt;script&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>// 3) CONFIGURÁ AQUÍ TUS 3–4 FUENTES (los mismos nombres del font-family de arriba)</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>// =========================</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>// 3) CONFIGURACIÓN DE FUENTES</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>//<span class="Apple-converted-space">    </span>family debe coincidir con font-family de @font-face</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>// =========================</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>const FONTS = [</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>{ label: "Cream Cake Bold", family: "Cream Cake Bold", size: 52 },</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>{ label: "Muthiara Regular", family: "Muthiara Regular", size: 52 },</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>{ label: "Cream Cake Bold", family: "Cream Cake Bold", size: 54 },</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>{ label: "Muthiara Regular", family: "Muthiara Regular", size: 54 },</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>{ label: "Fuente 3", family: "Fuente 3", size: 48 },</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>{ label: "Fuente 4", family: "Fuente 4", size: 48 },</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>];</span></p>
@@ -116,6 +217,16 @@
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>const previews = document.getElementById("previews");</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>const clearBtn = document.getElementById("clearBtn");</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>const copyBtn = document.getElementById("copyBtn");</span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>function escapeHtml(str) {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>return str.replace(/[&amp;&lt;&gt;"']/g, m =&gt; ({</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>"&amp;":"&amp;amp;",</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>"&lt;":"&amp;lt;",</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>"&gt;":"&amp;gt;",</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>'"':"&amp;quot;",</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>"'":"&amp;#039;"</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>}[m]));</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>function render(text) {</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>const value = (text || "").trim() || "Sofía";</span></p>
@@ -126,10 +237,10 @@
 <p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>div.className = "preview";</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>div.innerHTML = `</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="meta"&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="fontname"&gt;${f.label}&lt;/div&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="fontname"&gt;${escapeHtml(f.label)}&lt;/div&gt;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>&lt;div class="size"&gt;${f.size}px&lt;/div&gt;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="sample" style="font-family:'${f.family}'; font-size:${f.size}px;"&gt;</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">          </span>&lt;div class="sample" style="font-family:'${escapeHtml(f.family)}'; font-size:${f.size}px;"&gt;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">            </span>${escapeHtml(value)}</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">          </span>&lt;/div&gt;</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>`;</span></p>
@@ -137,18 +248,17 @@
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>}</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
 <p class="p1"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>function escapeHtml(str) {</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>return str.replace(/[&amp;&lt;&gt;"']/g, m =&gt; ({</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">        </span>"&amp;":"&amp;amp;","&lt;":"&amp;lt;","&gt;":"&amp;gt;",'"':"&amp;quot;","'":"&amp;#039;"</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>}[m]));</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>}</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>input.addEventListener("input", e =&gt; render(e.target.value));</span></p>
 <p class="p1"><span class="s1"></span><br></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>input.addEventListener("input", (e) =&gt; render(e.target.value));</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>clearBtn.addEventListener("click", () =&gt; { input.value = ""; render(""); input.focus(); });</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>clearBtn.addEventListener("click", () =&gt; {</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>input.value = "";</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>render("");</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>input.focus();</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>});</span></p>
+<p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>copyBtn.addEventListener("click", async () =&gt; {</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>const value = (input.value || "").trim() || "Sofía";</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>try { await navigator.clipboard.writeText(value); }</span></p>
-<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>catch { /* si el navegador bloquea, no pasa nada */ }</span></p>
+<p class="p2"><span class="s1"><span class="Apple-converted-space">      </span>try { await navigator.clipboard.writeText(value); } catch (e) {}</span></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>});</span></p>
 <p class="p1"><span class="s1"></span><br></p>
 <p class="p2"><span class="s1"><span class="Apple-converted-space">    </span>render("");</span></p>
