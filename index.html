@@ -19,6 +19,8 @@
     :root{
       --f1-file: "CreamCakeBold";
       --f2-file: "Muthiara";
+      --f3-file: "Fuente3.otf";
+      --f4-file: "Fuente4.otf";
     }
 
     /* NOTA: No uses comillas “ ”. Solo " */
@@ -36,7 +38,20 @@
       font-style: normal;
       font-display: swap;
     }
-
+   @font-face{
+      font-family: "F3";
+      src: url("CreamCakeBold" var(--f1-file)) format("opentype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+    @font-face{
+      font-family: "F4";
+      src: url("Muthiara" var(--f2-file)) format("opentype");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
     /* ===== UI minimalista ===== */
     :root{
       --bg:#f6f7fb;
